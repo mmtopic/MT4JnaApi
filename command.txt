@@ -3,4 +3,4 @@ java -jar jnaerator-0.13-SNAPSHOT-shaded.jar \   -runtime JNA \     -mode Maven 
 
 java -jar jnaerator-0.13-SNAPSHOT-shaded.jar -runtime JNAerator -arch win64  mtmanapi64.dll MT4ManagerAPI.h -mode Maven -mavenGroupId com.mmtap  -mavenArtifactId trader  -package com.mmtap.traderapi
 
-java -jar jnaerator-0.13-SNAPSHOT-shaded.jar -runtime JNA -arch win64 mtmanapi64.dll -mode Maven -mavenGroupId com.mmtap  -mavenArtifactId traderapi  -package com.mmtap.trader.janapi
+java -jar jnaerator-0.13-SNAPSHOT-shaded.jar -runtime JNA -arch win64 MT4ManagerAPI.h mtmanapi64.dll -mode Maven -mavenGroupId com.mmtap  -mavenArtifactId traderapi  -package com.mmtap.trader.janapi
